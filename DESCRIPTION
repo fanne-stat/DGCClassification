@@ -1,15 +1,20 @@
 Package: DGCClassification
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Discrete Gaussian Copula Classification
 Version: 0.1.0
-Author: Who wrote it
+Author: c(person("Yifan", "Zhu", , "fannechu@gmail.com", c("aut", "cre")))
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Description: Optimal classification under 0-1 loss for classifying grouped data modeled with mixture of Gaussian copula family distribution. 
+License: GPL-3
+URL: https://github.com/fanne-stat/DGCClassification
+BugReports: https://github.com/fanne-stat/DGCClassification/issues
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    DGCPCA (>= 0.1.0)
-Remotes:  
+    FNN,
+    TruncatedNormal
+Remotes: 
     fanne-stat/DGCPCA
+RoxygenNote: 7.1.1
+Depends: 
+    DGCPCA (>= 0.1.1)
